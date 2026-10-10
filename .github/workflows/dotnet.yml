@@ -7,11 +7,13 @@ on:
   push:
     branches: ["main"]
     paths:
+      - ".github/workflows/dotnet.yml"
       - "codes/csharp/**/*.cs"
       - "en/codes/csharp/**/*.cs"
   pull_request:
     branches: ["main"]
     paths:
+      - ".github/workflows/dotnet.yml"
       - "codes/csharp/**/*.cs"
       - "en/codes/csharp/**/*.cs"
   workflow_dispatch:

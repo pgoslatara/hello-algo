@@ -7,11 +7,13 @@ on:
   push:
     branches: ["main"]
     paths:
+      - ".github/workflows/python.yml"
       - "codes/python/**/*.py"
       - "en/codes/python/**/*.py"
   pull_request:
     branches: ["main"]
     paths:
+      - ".github/workflows/python.yml"
       - "codes/python/**/*.py"
       - "en/codes/python/**/*.py"
   workflow_dispatch:
